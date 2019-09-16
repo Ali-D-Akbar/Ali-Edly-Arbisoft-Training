@@ -17,13 +17,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/blog" />
       <recent name="$PROJECT_DIR$/frontend/src/components" />
       <recent name="$PROJECT_DIR$/frontend/static/frontend" />
       <recent name="$PROJECT_DIR$/frontend/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,7 +51,7 @@
       <updated>1567771496813</updated>
       <workItem from="1568376240040" duration="34000" />
       <workItem from="1568376492633" duration="13138000" />
-      <workItem from="1568616960730" duration="417000" />
+      <workItem from="1568616960730" duration="4730000" />
     </task>
     <servers />
   </component>

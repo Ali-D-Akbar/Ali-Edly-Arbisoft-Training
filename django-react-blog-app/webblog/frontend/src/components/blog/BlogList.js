@@ -40,7 +40,7 @@ export class BlogList extends Component {
 
         const renderPageNumbers = pageNumbers.map(number => {
             return (
-                <li
+                <li style="margin-right: 0.3em; color: blue; user-select: none; cursor: pointer;"
                     key={number}
                     id={number}
                     onClick={this.handleClick}
@@ -66,7 +66,7 @@ export class BlogList extends Component {
                     </div>
                 ))}
 
-                <ul id="page-numbers">
+                <ul id="page-numbers" style="list-style: none; display: flex;">
                     {renderPageNumbers}
                 </ul>
             </div>

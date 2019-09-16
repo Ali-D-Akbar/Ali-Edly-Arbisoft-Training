@@ -1,8 +1,6 @@
-from django.shortcuts import render
-
+from knox.models import AuthToken
 from rest_framework import generics, permissions
 from rest_framework.response import Response
-from knox.models import AuthToken
 
 from accounts.serializers import RegisterSerializer, UserSerializer, LoginSerializer
 

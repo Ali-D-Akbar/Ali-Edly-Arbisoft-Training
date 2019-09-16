@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import {login} from "../../actions/auth";
-import {Redirect} from "react-router-dom";
 
 
 export class Login extends Component {
@@ -25,7 +24,7 @@ export class Login extends Component {
     onChange = e => this.setState({[e.target.name]: e.target.value});
 
     render() {
-        if(this.props.isAuthenticated){
+        if (this.props.isAuthenticated) {
             return <Redirect to="/"/>
         }
         const {username, password} = this.state;

@@ -1,9 +1,17 @@
-import {RETURN_ERRORS} from "./types";
+import {CREATE_MESSAGE, GET_ERRORS} from "./types";
+
+// CREATE MESSAGE
+export const createMessage = msg => {
+    return {
+        type: CREATE_MESSAGE,
+        payload: msg
+    };
+};
 
 //RETURN_ERRORS
 export const returnErrors = (message, status) => {
     return {
-        type: RETURN_ERRORS,
+        type: GET_ERRORS,
         payload: {message, status}
     };
 };
